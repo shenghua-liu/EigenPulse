@@ -1,9 +1,11 @@
-##Overview
+Overview
+========
 This is the implementation for the *EigenPulse* algorithm described in the paper: "EigenPulse: Detecting Surges in LargeStreaming Graphs with Row Augmentation".
 
 In this paper, we  reasonably  model  the  streaming  graph  as  a  row-augmented matrix,  and  propose,  EigenPulse,  to  detect  surges  in  large  streaming  graphs, based on the singular spectrum of the matrix.  EigenPulse has the following advantages:  (1) Incremental singular value decomposition: we propose an algorithm, *AugSVD*, which can output the spectral values of graph nodes at each time window; (2) Robust: we theoretically analyze that the robust approximation of AugSVD to batch SVD. (3) Effectiveness:  EigenPulse  can  detect  suspicious  synchronized  activities accurately in real-world graphs.
 
-##Requirements
+Requirements
+========
  This project is written in Python 3.6
  We suggest recreating the experimental environment using Anaconda through the following steps.
  1、Clone the project
@@ -21,7 +23,8 @@ https://github.com/shenghua-liu/EigenPulse.git
 pip install -e code
 ```
 
-##Experiments
+Experiments
+========
 - For demo, we use BeerAdvocate dataset
 ```
 python beer.py
