@@ -8,11 +8,13 @@ Requirements
 ========
  This project is written in Python 3.6
  We suggest recreating the experimental environment using Anaconda through the following steps.
+ 
  1、Clone the project
 ```
 https://github.com/shenghua-liu/EigenPulse.git
 ```
 2、Install the appropriate version for Anaconda from here - https://www.anaconda.com/distribution/
+
 3、Create a new conda environment named "rest" and install requirements.
 - conda create -n eigenpulse python=3.6
 - conda activate eigenpulse
