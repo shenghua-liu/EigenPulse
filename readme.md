@@ -15,7 +15,7 @@ https://github.com/shenghua-liu/EigenPulse.git
 ```
 2、Install the appropriate version for Anaconda from here - https://www.anaconda.com/distribution/
 
-3、Create a new conda environment named "rest" and install requirements.
+3、Create a new conda environment named "eigenpulse" and install requirements.
 - conda create -n eigenpulse python=3.6
 - conda activate eigenpulse
 - pip install --user --requirement requirements.txt
