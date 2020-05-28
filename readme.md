@@ -16,10 +16,10 @@ git clone https://github.com/shenghua-liu/EigenPulse.git
 2、Install the appropriate version for Anaconda from here - https://www.anaconda.com/distribution/
 
 3、Create a new conda environment named "eigenpulse" and install requirements.
+[comment]: <> (pip install --user --requirement requirements.txt)
 ```bash
 conda create -n eigenpulse python=3.6
 conda activate eigenpulse
-[comment]: <> (pip install --user --requirement requirements.txt)
 conda install --force-reinstall -y --name spartan -c conda-forge --file requirements.txt
 ```
 [comment]: <> (4、install code)
