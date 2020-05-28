@@ -21,10 +21,10 @@ conda create -n eigenpulse python=3.6
 conda activate eigenpulse
 pip install --user --requirement requirements.txt
 ```
-4、install code
-```
-pip install -e code
-```
+[comment]: <> (4、install code)
+[comment]: <> (```)
+[comment]: <> (pip install -e code)
+[comment]: <> (```)
 
 Experiments
 ========
