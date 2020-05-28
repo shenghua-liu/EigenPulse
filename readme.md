@@ -19,7 +19,8 @@ git clone https://github.com/shenghua-liu/EigenPulse.git
 ```bash
 conda create -n eigenpulse python=3.6
 conda activate eigenpulse
-pip install --user --requirement requirements.txt
+[comment]: <> (pip install --user --requirement requirements.txt)
+conda install --force-reinstall -y --name spartan -c conda-forge --file requirements.txt
 ```
 [comment]: <> (4、install code)
 [comment]: <> (```)
